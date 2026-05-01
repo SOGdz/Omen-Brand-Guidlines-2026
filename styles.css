@@ -158,6 +158,10 @@ h1 span:last-child {
   min-height: 0.92em;
   color: transparent;
   -webkit-text-stroke: 1px var(--yellow);
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   animation: word-in 520ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
