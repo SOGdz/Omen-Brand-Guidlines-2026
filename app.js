@@ -1,6 +1,6 @@
-import * as pdfjsLib from "./vendor/pdf.min.mjs";
+import * as pdfjsLib from "./vendor/pdf.min.js";
 
-pdfjsLib.GlobalWorkerOptions.workerSrc = "./vendor/pdf.worker.min.mjs";
+pdfjsLib.GlobalWorkerOptions.workerSrc = "./vendor/pdf.worker.min.js";
 
 const PDF_URL = "./assets/brand-guidelines-v2.pdf";
 const pageLabels = [
